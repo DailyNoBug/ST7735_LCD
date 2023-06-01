@@ -1,0 +1,3 @@
+/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles/G431_LCD.elf.dir
+/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles/rebuild_cache.dir
