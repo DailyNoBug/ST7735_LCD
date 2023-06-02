@@ -4138,10 +4138,10 @@ static void SPI_CloseRxTx_ISR(SPI_HandleTypeDef *hspi)
   __HAL_SPI_DISABLE_IT(hspi, SPI_IT_ERR);
 
   /* Check the end of the transaction */
-//  if (SPI_EndRxTxTransaction(hspi, SPI_DEFAULT_TIMEOUT, tickstart) != HAL_OK)
-//  {
-//    SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_FLAG);
-//  }
+  if (SPI_EndRxTxTransaction(hspi, SPI_DEFAULT_TIMEOUT, tickstart) != HAL_OK)
+  {
+    SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_FLAG);
+  }
 
 #if (USE_SPI_CRC != 0U)
   /* Check if CRC error occurred */
@@ -4272,10 +4272,10 @@ static void SPI_CloseTx_ISR(SPI_HandleTypeDef *hspi)
   __HAL_SPI_DISABLE_IT(hspi, (SPI_IT_TXE | SPI_IT_ERR));
 
   /* Check the end of the transaction */
-//  if (SPI_EndRxTxTransaction(hspi, SPI_DEFAULT_TIMEOUT, tickstart) != HAL_OK)
-//  {
-//    SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_FLAG);
-//  }
+  if (SPI_EndRxTxTransaction(hspi, SPI_DEFAULT_TIMEOUT, tickstart) != HAL_OK)
+  {
+    SET_BIT(hspi->ErrorCode, HAL_SPI_ERROR_FLAG);
+  }
 
   /* Clear overrun flag in 2 Lines communication mode because received is not read */
   if (hspi->Init.Direction == SPI_DIRECTION_2LINES)

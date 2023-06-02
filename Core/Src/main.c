@@ -19,12 +19,15 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "spi.h"
+#include "tim.h"
 #include "gpio.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "stm32g4xx_hal.h"
 #include "st7735.h"
+#include "stdio.h"
+#include "string.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -87,6 +90,7 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_SPI1_Init();
+  MX_TIM1_Init();
   /* USER CODE BEGIN 2 */
   ST7735_Init();
     ST7735_WriteString(0,0,"test",Font_7x10,ST7735_BLUE,ST7735_WHITE);
@@ -96,19 +100,30 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+  char buffer[64];
+  uint8_t time0 = 0;
+  HAL_TIM_Base_Start(&htim1);
   while (1)
   {
-      ST7735_FillScreen(ST7735_BLACK);
+      __HAL_TIM_SET_COUNTER(&htim1,0);
+//      ST7735_FillScreen(ST7735_BLACK);
 //      HAL_GPIO_WritePin(GPIOB,GPIO_PIN_4,GPIO_PIN_SET);
 //      HAL_Delay(1000);
 //      HAL_GPIO_WritePin(GPIOB,GPIO_PIN_4,GPIO_PIN_RESET);
 //      HAL_Delay(1000);
-      ST7735_FillScreen(ST7735_RED);
-      ST7735_FillScreen(ST7735_GREEN);
-      ST7735_FillScreen(ST7735_BLUE);
-      ST7735_FillScreen(ST7735_BLACK);
+//      ST7735_FillScreen(ST7735_RED);
+//      ST7735_FillScreen(ST7735_GREEN);
+//      ST7735_FillScreen(ST7735_BLUE);
+//      ST7735_FillScreen(ST7735_BLACK);
       ST7735_FillScreen(ST7735_WHITE);
-//      HAL_Delay(1000);
+      time0 = __HAL_TIM_GET_COUNTER(&htim1);
+      memset(buffer,0,sizeof (buffer));
+      sprintf(buffer,"TIME: %d",time0);
+      ST7735_WriteString(0,0,buffer,Font_7x10,ST7735_RED,ST7735_WHITE);
+      memset(buffer,0,sizeof (buffer));
+      sprintf(buffer,"FPS: %d",2000000/time0);      //不是真实屏幕帧率
+      ST7735_WriteString(0,15,buffer,Font_7x10,ST7735_RED,ST7735_WHITE);
+//      HAL_Delay(200);
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
