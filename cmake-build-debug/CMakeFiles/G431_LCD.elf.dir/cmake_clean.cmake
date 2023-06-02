@@ -15,6 +15,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/G431_LCD.elf.dir/Core/Src/sysmem.c.obj.d"
   "CMakeFiles/G431_LCD.elf.dir/Core/Src/system_stm32g4xx.c.obj"
   "CMakeFiles/G431_LCD.elf.dir/Core/Src/system_stm32g4xx.c.obj.d"
+  "CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.obj"
+  "CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.obj.d"
   "CMakeFiles/G431_LCD.elf.dir/Core/Startup/startup_stm32g431cbtx.s.obj"
   "CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj"
   "CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj.d"

@@ -29,6 +29,8 @@ CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj: \
  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+ /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+ /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h \
  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h \
  /home/lsc/repo/G431_LCD/st7735/st7735.h \
  /home/lsc/repo/G431_LCD/st7735/fonts.h \

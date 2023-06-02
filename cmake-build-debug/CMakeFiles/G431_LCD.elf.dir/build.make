@@ -181,9 +181,23 @@ CMakeFiles/G431_LCD.elf.dir/Core/Src/system_stm32g4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/G431_LCD.elf.dir/Core/Src/system_stm32g4xx.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lsc/repo/G431_LCD/Core/Src/system_stm32g4xx.c -o CMakeFiles/G431_LCD.elf.dir/Core/Src/system_stm32g4xx.c.s
 
+CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
+CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.obj: /home/lsc/repo/G431_LCD/Core/Src/tim.c
+CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.obj -c /home/lsc/repo/G431_LCD/Core/Src/tim.c
+
+CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/lsc/repo/G431_LCD/Core/Src/tim.c > CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.i
+
+CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/lsc/repo/G431_LCD/Core/Src/tim.c -o CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.s
+
 CMakeFiles/G431_LCD.elf.dir/Core/Startup/startup_stm32g431cbtx.s.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Core/Startup/startup_stm32g431cbtx.s.obj: /home/lsc/repo/G431_LCD/Core/Startup/startup_stm32g431cbtx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/G431_LCD.elf.dir/Core/Startup/startup_stm32g431cbtx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building ASM object CMakeFiles/G431_LCD.elf.dir/Core/Startup/startup_stm32g431cbtx.s.obj"
 	/usr/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/G431_LCD.elf.dir/Core/Startup/startup_stm32g431cbtx.s.obj -c /home/lsc/repo/G431_LCD/Core/Startup/startup_stm32g431cbtx.s
 
 CMakeFiles/G431_LCD.elf.dir/Core/Startup/startup_stm32g431cbtx.s.i: cmake_force
@@ -197,7 +211,7 @@ CMakeFiles/G431_LCD.elf.dir/Core/Startup/startup_stm32g431cbtx.s.s: cmake_force
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.i: cmake_force
@@ -211,7 +225,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.s: 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.i: cmake_force
@@ -225,7 +239,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_corte
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.i: cmake_force
@@ -239,7 +253,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.i: cmake_force
@@ -253,7 +267,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_e
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.i: cmake_force
@@ -267,7 +281,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.i: cmake_force
@@ -281,7 +295,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.i: cmake_force
@@ -295,7 +309,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.i: cmake_force
@@ -309,7 +323,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.i: cmake_force
@@ -323,7 +337,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.i: cmake_force
@@ -337,7 +351,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.i: cmake_force
@@ -351,7 +365,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_e
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.i: cmake_force
@@ -365,7 +379,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.i: cmake_force
@@ -379,7 +393,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_e
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.i: cmake_force
@@ -393,7 +407,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.i: cmake_force
@@ -407,7 +421,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_e
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.i: cmake_force
@@ -421,7 +435,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj -MF CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj -c /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.i: cmake_force
@@ -435,7 +449,7 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_e
 CMakeFiles/G431_LCD.elf.dir/st7735/fonts.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/st7735/fonts.c.obj: /home/lsc/repo/G431_LCD/st7735/fonts.c
 CMakeFiles/G431_LCD.elf.dir/st7735/fonts.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/G431_LCD.elf.dir/st7735/fonts.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/G431_LCD.elf.dir/st7735/fonts.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/st7735/fonts.c.obj -MF CMakeFiles/G431_LCD.elf.dir/st7735/fonts.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/st7735/fonts.c.obj -c /home/lsc/repo/G431_LCD/st7735/fonts.c
 
 CMakeFiles/G431_LCD.elf.dir/st7735/fonts.c.i: cmake_force
@@ -449,7 +463,7 @@ CMakeFiles/G431_LCD.elf.dir/st7735/fonts.c.s: cmake_force
 CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj: CMakeFiles/G431_LCD.elf.dir/flags.make
 CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj: /home/lsc/repo/G431_LCD/st7735/st7735.c
 CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj: CMakeFiles/G431_LCD.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj -MF CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj.d -o CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj -c /home/lsc/repo/G431_LCD/st7735/st7735.c
 
 CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.i: cmake_force
@@ -470,6 +484,7 @@ G431_LCD_elf_OBJECTS = \
 "CMakeFiles/G431_LCD.elf.dir/Core/Src/syscalls.c.obj" \
 "CMakeFiles/G431_LCD.elf.dir/Core/Src/sysmem.c.obj" \
 "CMakeFiles/G431_LCD.elf.dir/Core/Src/system_stm32g4xx.c.obj" \
+"CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.obj" \
 "CMakeFiles/G431_LCD.elf.dir/Core/Startup/startup_stm32g431cbtx.s.obj" \
 "CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj" \
 "CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj" \
@@ -502,6 +517,7 @@ G431_LCD.elf: CMakeFiles/G431_LCD.elf.dir/Core/Src/stm32g4xx_it.c.obj
 G431_LCD.elf: CMakeFiles/G431_LCD.elf.dir/Core/Src/syscalls.c.obj
 G431_LCD.elf: CMakeFiles/G431_LCD.elf.dir/Core/Src/sysmem.c.obj
 G431_LCD.elf: CMakeFiles/G431_LCD.elf.dir/Core/Src/system_stm32g4xx.c.obj
+G431_LCD.elf: CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.obj
 G431_LCD.elf: CMakeFiles/G431_LCD.elf.dir/Core/Startup/startup_stm32g431cbtx.s.obj
 G431_LCD.elf: CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
 G431_LCD.elf: CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj
@@ -524,7 +540,7 @@ G431_LCD.elf: CMakeFiles/G431_LCD.elf.dir/st7735/fonts.c.obj
 G431_LCD.elf: CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj
 G431_LCD.elf: CMakeFiles/G431_LCD.elf.dir/build.make
 G431_LCD.elf: CMakeFiles/G431_LCD.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking C executable G431_LCD.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lsc/repo/G431_LCD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking C executable G431_LCD.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/G431_LCD.elf.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/lsc/repo/G431_LCD/cmake-build-debug/G431_LCD.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building /home/lsc/repo/G431_LCD/cmake-build-debug/G431_LCD.bin"

@@ -32,7 +32,9 @@ CMakeFiles/G431_LCD.elf.dir/Core/Src/gpio.c.obj: /home/lsc/repo/G431_LCD/Core/Sr
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Core/Src/main.c.obj: /home/lsc/repo/G431_LCD/Core/Src/main.c \
   /home/lsc/repo/G431_LCD/Core/Inc/main.h \
@@ -65,12 +67,47 @@ CMakeFiles/G431_LCD.elf.dir/Core/Src/main.c.obj: /home/lsc/repo/G431_LCD/Core/Sr
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h \
   /home/lsc/repo/G431_LCD/Core/Inc/spi.h \
   /home/lsc/repo/G431_LCD/Core/Inc/main.h \
+  /home/lsc/repo/G431_LCD/Core/Inc/tim.h \
   /home/lsc/repo/G431_LCD/Core/Inc/gpio.h \
   /home/lsc/repo/G431_LCD/st7735/st7735.h \
   /home/lsc/repo/G431_LCD/st7735/fonts.h \
-  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h \
+  /usr/include/newlib/stdio.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h \
+  /usr/include/newlib/sys/reent.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/sys/_types.h \
+  /usr/include/newlib/machine/_types.h \
+  /usr/include/newlib/sys/lock.h \
+  /usr/include/newlib/sys/types.h \
+  /usr/include/newlib/sys/_stdint.h \
+  /usr/include/newlib/machine/endian.h \
+  /usr/include/newlib/machine/_endian.h \
+  /usr/include/newlib/sys/select.h \
+  /usr/include/newlib/sys/_sigset.h \
+  /usr/include/newlib/sys/_timeval.h \
+  /usr/include/newlib/sys/timespec.h \
+  /usr/include/newlib/sys/_timespec.h \
+  /usr/include/newlib/sys/_pthreadtypes.h \
+  /usr/include/newlib/sys/sched.h \
+  /usr/include/newlib/machine/types.h \
+  /usr/include/newlib/sys/stdio.h \
+  /usr/include/newlib/string.h \
+  /usr/include/newlib/sys/_locale.h \
+  /usr/include/newlib/strings.h \
+  /usr/include/newlib/sys/string.h
 
 CMakeFiles/G431_LCD.elf.dir/Core/Src/spi.c.obj: /home/lsc/repo/G431_LCD/Core/Src/spi.c \
   /home/lsc/repo/G431_LCD/Core/Inc/spi.h \
@@ -103,7 +140,9 @@ CMakeFiles/G431_LCD.elf.dir/Core/Src/spi.c.obj: /home/lsc/repo/G431_LCD/Core/Src
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: /home/lsc/repo/G431_LCD/Core/Src/stm32g4xx_hal_msp.c \
   /home/lsc/repo/G431_LCD/Core/Inc/main.h \
@@ -135,7 +174,9 @@ CMakeFiles/G431_LCD.elf.dir/Core/Src/stm32g4xx_hal_msp.c.obj: /home/lsc/repo/G43
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Core/Src/stm32g4xx_it.c.obj: /home/lsc/repo/G431_LCD/Core/Src/stm32g4xx_it.c \
   /home/lsc/repo/G431_LCD/Core/Inc/main.h \
@@ -168,6 +209,8 @@ CMakeFiles/G431_LCD.elf.dir/Core/Src/stm32g4xx_it.c.obj: /home/lsc/repo/G431_LCD
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h \
   /home/lsc/repo/G431_LCD/Core/Inc/stm32g4xx_it.h
 
 CMakeFiles/G431_LCD.elf.dir/Core/Src/syscalls.c.obj: /home/lsc/repo/G431_LCD/Core/Src/syscalls.c \
@@ -261,7 +304,44 @@ CMakeFiles/G431_LCD.elf.dir/Core/Src/system_stm32g4xx.c.obj: /home/lsc/repo/G431
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
+
+CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.obj: /home/lsc/repo/G431_LCD/Core/Src/tim.c \
+  /home/lsc/repo/G431_LCD/Core/Inc/tim.h \
+  /home/lsc/repo/G431_LCD/Core/Inc/main.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
+  /home/lsc/repo/G431_LCD/Core/Inc/stm32g4xx_hal_conf.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h \
+  /home/lsc/repo/G431_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h \
+  /home/lsc/repo/G431_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h \
+  /home/lsc/repo/G431_LCD/Drivers/CMSIS/Include/core_cm4.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h \
+  /home/lsc/repo/G431_LCD/Drivers/CMSIS/Include/cmsis_version.h \
+  /home/lsc/repo/G431_LCD/Drivers/CMSIS/Include/cmsis_compiler.h \
+  /home/lsc/repo/G431_LCD/Drivers/CMSIS/Include/cmsis_gcc.h \
+  /home/lsc/repo/G431_LCD/Drivers/CMSIS/Include/mpu_armv7.h \
+  /home/lsc/repo/G431_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+  /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_cortex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_exti.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -292,7 +372,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -323,7 +405,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_corte
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -354,7 +438,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -385,7 +471,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_e
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -416,7 +504,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -447,7 +537,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -478,7 +570,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -509,7 +603,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -540,7 +636,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -571,7 +669,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -602,7 +702,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_e
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -633,7 +735,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -664,7 +768,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_e
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -695,7 +801,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi.c
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -726,7 +834,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_e
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -757,7 +867,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c.obj: /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h \
@@ -788,7 +900,9 @@ CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_e
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
-  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h
 
 CMakeFiles/G431_LCD.elf.dir/st7735/fonts.c.obj: /home/lsc/repo/G431_LCD/st7735/fonts.c \
   /home/lsc/repo/G431_LCD/st7735/fonts.h \
@@ -824,6 +938,8 @@ CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj: /home/lsc/repo/G431_LCD/st7735/
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi_ex.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h \
+  /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h \
   /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h \
   /home/lsc/repo/G431_LCD/st7735/st7735.h \
   /home/lsc/repo/G431_LCD/st7735/fonts.h \
@@ -849,8 +965,6 @@ CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj: /home/lsc/repo/G431_LCD/st7735/
   /usr/include/newlib/sys/string.h
 
 
-/usr/include/newlib/strings.h:
-
 /usr/include/newlib/machine/malloc.h:
 
 /usr/include/newlib/malloc.h:
@@ -867,13 +981,7 @@ CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj: /home/lsc/repo/G431_LCD/st7735/
 
 /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c:
 
-/usr/include/newlib/string.h:
-
-/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c:
-
 /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c:
-
-/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c:
 
 /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c:
 
@@ -887,17 +995,11 @@ CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj: /home/lsc/repo/G431_LCD/st7735/
 
 /usr/include/newlib/sys/time.h:
 
-/usr/include/newlib/sys/string.h:
+/usr/include/newlib/errno.h:
 
-/usr/include/newlib/sys/signal.h:
+/usr/include/newlib/alloca.h:
 
-/home/lsc/repo/G431_LCD/st7735/st7735.h:
-
-/home/lsc/repo/G431_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h:
-
-/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c:
-
-/usr/include/newlib/machine/_default_types.h:
+/usr/include/newlib/machine/stdlib.h:
 
 /usr/include/newlib/signal.h:
 
@@ -908,6 +1010,16 @@ CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj: /home/lsc/repo/G431_LCD/st7735/
 /usr/include/newlib/sys/times.h:
 
 /home/lsc/repo/G431_LCD/Core/Inc/stm32g4xx_hal_conf.h:
+
+/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c:
+
+/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h:
+
+/home/lsc/repo/G431_LCD/Drivers/CMSIS/Include/mpu_armv7.h:
+
+/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c:
+
+/home/lsc/repo/G431_LCD/Core/Inc/stm32g4xx_it.h:
 
 /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_flash_ramfunc.h:
 
@@ -937,17 +1049,23 @@ CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj: /home/lsc/repo/G431_LCD/st7735/
 
 /usr/include/newlib/_ansi.h:
 
+/usr/include/newlib/stdlib.h:
+
+/usr/include/newlib/newlib.h:
+
+/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h:
+
 /usr/include/newlib/sys/_timeval.h:
 
 /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_rcc.h:
 
 /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_spi.h:
 
+/usr/include/newlib/sys/_types.h:
+
 /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c:
 
 /usr/include/newlib/sys/stat.h:
-
-/usr/include/newlib/sys/_types.h:
 
 /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c:
 
@@ -957,35 +1075,45 @@ CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj: /home/lsc/repo/G431_LCD/st7735/
 
 /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:
 
-/usr/include/newlib/machine/_time.h:
-
-/home/lsc/repo/G431_LCD/Core/Src/spi.c:
-
 /home/lsc/repo/G431_LCD/Core/Inc/gpio.h:
 
 /home/lsc/repo/G431_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g4xx.h:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdbool.h:
 
-/home/lsc/repo/G431_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h:
+/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim_ex.h:
 
-/home/lsc/repo/G431_LCD/Core/Src/stm32g4xx_it.c:
+/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h:
+
+/usr/include/newlib/_newlib_version.h:
+
+/home/lsc/repo/G431_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/stm32g431xx.h:
 
 /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_pwr_ex.h:
 
 /usr/include/newlib/sys/select.h:
 
+/home/lsc/repo/G431_LCD/Core/Src/tim.c:
+
+/home/lsc/repo/G431_LCD/Core/Src/stm32g4xx_it.c:
+
 /home/lsc/repo/G431_LCD/Drivers/CMSIS/Include/cmsis_gcc.h:
-
-/usr/include/newlib/errno.h:
-
-/home/lsc/repo/G431_LCD/st7735/fonts.h:
 
 /home/lsc/repo/G431_LCD/Core/Inc/main.h:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdint.h:
 
+/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c:
+
+/usr/include/newlib/string.h:
+
 /home/lsc/repo/G431_LCD/Drivers/CMSIS/Include/cmsis_version.h:
+
+/usr/include/newlib/machine/_time.h:
+
+/home/lsc/repo/G431_LCD/Core/Src/spi.c:
+
+/home/lsc/repo/G431_LCD/Core/Inc/tim.h:
 
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stddef.h:
 
@@ -993,45 +1121,41 @@ CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj: /home/lsc/repo/G431_LCD/st7735/
 
 /usr/include/newlib/machine/endian.h:
 
-/home/lsc/repo/G431_LCD/Drivers/CMSIS/Include/mpu_armv7.h:
+/home/lsc/repo/G431_LCD/Drivers/CMSIS/Device/ST/STM32G4xx/Include/system_stm32g4xx.h:
 
-/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c:
+/home/lsc/repo/G431_LCD/st7735/st7735.h:
 
-/home/lsc/repo/G431_LCD/Core/Inc/stm32g4xx_it.h:
+/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c:
+
+/usr/include/newlib/machine/_default_types.h:
+
+/usr/include/newlib/sys/errno.h:
+
+/home/lsc/repo/G431_LCD/Drivers/CMSIS/Include/cmsis_compiler.h:
 
 /usr/include/newlib/sys/stdio.h:
 
-/home/lsc/repo/G431_LCD/st7735/fonts.c:
+/home/lsc/repo/G431_LCD/st7735/fonts.h:
 
-/home/lsc/repo/G431_LCD/Core/Inc/spi.h:
+/usr/include/newlib/stdio.h:
 
-/usr/include/newlib/machine/types.h:
+/usr/include/newlib/sys/signal.h:
 
-/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_def.h:
-
-/usr/include/newlib/_newlib_version.h:
+/usr/include/newlib/sys/string.h:
 
 /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c:
 
 /usr/include/newlib/sys/features.h:
 
-/usr/include/newlib/time.h:
-
 /usr/lib/gcc/arm-none-eabi/10.3.1/include/stdarg.h:
 
-/home/lsc/repo/G431_LCD/Core/Src/stm32g4xx_hal_msp.c:
-
-/usr/include/newlib/sys/reent.h:
+/usr/include/newlib/time.h:
 
 /usr/include/newlib/machine/_types.h:
 
 /home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_spi_ex.c:
 
 /usr/include/newlib/sys/lock.h:
-
-/home/lsc/repo/G431_LCD/Core/Src/syscalls.c:
-
-/usr/include/newlib/sys/types.h:
 
 /usr/include/newlib/sys/_sigset.h:
 
@@ -1047,22 +1171,22 @@ CMakeFiles/G431_LCD.elf.dir/st7735/st7735.c.obj: /home/lsc/repo/G431_LCD/st7735/
 
 /usr/include/newlib/sys/sched.h:
 
-/usr/include/newlib/alloca.h:
-
 /usr/include/newlib/sys/_pthreadtypes.h:
+
+/home/lsc/repo/G431_LCD/st7735/fonts.c:
+
+/home/lsc/repo/G431_LCD/Core/Inc/spi.h:
+
+/usr/include/newlib/machine/types.h:
+
+/usr/include/newlib/sys/types.h:
+
+/home/lsc/repo/G431_LCD/Core/Src/syscalls.c:
 
 /usr/include/newlib/sys/_locale.h:
 
-/usr/include/newlib/machine/stdlib.h:
+/usr/include/newlib/strings.h:
 
-/usr/include/newlib/newlib.h:
+/usr/include/newlib/sys/reent.h:
 
-/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_dma_ex.h:
-
-/usr/include/newlib/stdlib.h:
-
-/home/lsc/repo/G431_LCD/Drivers/CMSIS/Include/cmsis_compiler.h:
-
-/usr/include/newlib/sys/errno.h:
-
-/usr/include/newlib/stdio.h:
+/home/lsc/repo/G431_LCD/Core/Src/stm32g4xx_hal_msp.c:

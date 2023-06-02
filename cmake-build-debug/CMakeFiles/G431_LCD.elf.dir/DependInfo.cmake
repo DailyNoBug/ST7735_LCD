@@ -39,6 +39,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/lsc/repo/G431_LCD/Core/Src/syscalls.c" "CMakeFiles/G431_LCD.elf.dir/Core/Src/syscalls.c.obj" "gcc" "CMakeFiles/G431_LCD.elf.dir/Core/Src/syscalls.c.obj.d"
   "/home/lsc/repo/G431_LCD/Core/Src/sysmem.c" "CMakeFiles/G431_LCD.elf.dir/Core/Src/sysmem.c.obj" "gcc" "CMakeFiles/G431_LCD.elf.dir/Core/Src/sysmem.c.obj.d"
   "/home/lsc/repo/G431_LCD/Core/Src/system_stm32g4xx.c" "CMakeFiles/G431_LCD.elf.dir/Core/Src/system_stm32g4xx.c.obj" "gcc" "CMakeFiles/G431_LCD.elf.dir/Core/Src/system_stm32g4xx.c.obj.d"
+  "/home/lsc/repo/G431_LCD/Core/Src/tim.c" "CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.obj" "gcc" "CMakeFiles/G431_LCD.elf.dir/Core/Src/tim.c.obj.d"
   "/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c" "CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj" "gcc" "CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c.obj.d"
   "/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c" "CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj" "gcc" "CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c.obj.d"
   "/home/lsc/repo/G431_LCD/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c" "CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj" "gcc" "CMakeFiles/G431_LCD.elf.dir/Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c.obj.d"
